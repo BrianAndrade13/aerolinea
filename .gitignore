@@ -1,0 +1,18 @@
+# Entorno virtual: pesa mucho y no se sube.
+# Quien descargue el proyecto lo crea con:  python -m venv venv  y  pip install -r requirements.txt
+venv/
+.venv/
+env/
+
+# Archivos que Python genera solo
+__pycache__/
+*.py[cod]
+
+# Datos que se crean al usar la aplicación (se regeneran solos desde data/ejemplo.json)
+data/reservas.json
+
+# Editor y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
